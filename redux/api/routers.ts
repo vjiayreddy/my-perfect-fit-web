@@ -1,0 +1,16 @@
+export enum API_ROUTES {
+  LOGIN = "/doctor/login",
+  REGISTER = "/doctor/register",
+  FILTER_PATIENTS = "/patient/patients",
+  CREATE_PROTOCOL = "/protocol/create",
+  FFETCH_PROTOCOLS = "/protocol/fetch",
+  UPDATE_PROTOCOLS = "/protocol/update",
+  DELETE_PROTOCOLS = "/protocol/delete",
+  FFETCH_SURVEY = "/protocol/survey/fetch",
+  CREATE_SURVEY = "/protocol/survey/create",
+  UPDATE_SURVEY = "/protocol/survey/update",
+  FETCH_QUESTION_TYPES = "/question/get-question-option-types",
+  CREATE_SURVEY_QUESTION = "/question/create-survey-question",
+  FETCH_SINGLE_SURVEY_QUESTIONS = "/question/fetch",
+  FETCH_EMOJIS = "/emoji/fetch",
+}

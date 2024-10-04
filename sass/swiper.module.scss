@@ -1,0 +1,27 @@
+.mainSwiper {
+  .swiper-slide {
+    img {
+      // width: 100%;
+    }
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+  transform: scale(0.5) !important;
+  width: 50px !important;
+  height: 80px !important;
+  transition: 0.2s;
+  background: rgba(102, 102, 102, 0.354) !important;
+  //display: none;
+  place-items: center;
+}
+
+.swiper-button-prev {
+  left: -13px;
+}
+
+.swiper-button-next {
+  right: -13px;
+}
